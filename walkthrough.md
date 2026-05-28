@@ -147,3 +147,27 @@ Foi executado um teste automatizado simulando:
 
 O programa passou com sucesso em todas as verificações simuladas.
 
+---
+
+## 6. Sistema Bancário com Decoradores de Auditoria
+
+Criei e configurei a nova pasta com a implementação estendida com decoradores de auditoria para persistência de logs em arquivo.
+
+### Alterações Realizadas
+
+- Criada a pasta: [sist_bancario_decoradores](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/sist_bancario_decoradores)
+- Criado o arquivo de código-fonte: [sist_bancario_decoradores.py](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/sist_bancario_decoradores/sist_bancario_decoradores.py) implementando o decorador `@log_transacao` e `__repr__` nas classes `PessoaFisica` e `ContaCorrente`.
+- Criado o arquivo de logs: [log.txt](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/sist_bancario_decoradores/log.txt) registrando eventos e auditoria em uma nova linha com data, hora, nome da função, argumentos e valores retornados.
+- Criada a documentação técnica: [README.md](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/sist_bancario_decoradores/README.md) explicando a implementação de auditoria.
+
+### Resultados da Verificação
+
+Foi executado um teste automatizado simulando a criação de cliente/conta, depósitos, saques e verificação de logs:
+1. Confirmada a gravação de logs de auditoria correspondentes para todas as funções interativas do sistema.
+2. Validado o formato do timestamp `[AAAA-MM-DD HH:MM:SS]`.
+3. Validado o formato de linha única em cada log, garantindo que representações complexas de objetos não quebrem a estrutura do arquivo.
+4. Verificada a persistência em modo de acréscimo (append).
+
+O programa passou com sucesso em todas as verificações simuladas.
+
+
