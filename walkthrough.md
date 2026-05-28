@@ -122,3 +122,28 @@ Foi executado um teste de integração de terminal simulando as operações do m
 7. Saída segura.
 
 O programa funcionou perfeitamente em todas as interações.
+
+---
+
+## 5. Sistema Bancário em POO com Python e Datetime
+
+Criei e configurei a nova pasta com a implementação orientada a objetos (POO) estendida com limites temporais e formatação de datas.
+
+### Alterações Realizadas
+
+- Criada a pasta: [sist_bancario_POO_python_datetime](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/sist_bancario_POO_python_datetime)
+- Criado o arquivo de código-fonte: [sist_bancario_POO_python_datetime.py](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/sist_bancario_POO_python_datetime/sist_bancario_POO_python_datetime.py) contendo a validação de limite diário de 10 transações e contagem de saques diários.
+- Criado o arquivo de documentação técnica: [README.md](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/sist_bancario_POO_python_datetime/README.md) detalhando as novas restrições operacionais e a modelagem UML adaptada.
+
+### Resultados da Verificação
+
+Foi executado um teste automatizado simulando:
+1. Cadastro de novo cliente Pessoa Física (`João Teste`).
+2. Criação de Conta Corrente associada.
+3. Execução de 10 depósitos consecutivos com sucesso.
+4. Tentativa de efetuar a 11ª transação, validando o bloqueio preventivo e a exibição da mensagem de erro de limite de transações diárias excedido.
+5. Verificação do formato de data e hora (`dd-mm-aaaa hh:mm:ss`) em todas as transações registradas no histórico.
+6. Validação do saldo final (R$ 1000.00).
+
+O programa passou com sucesso em todas as verificações simuladas.
+
