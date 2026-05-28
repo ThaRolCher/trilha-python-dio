@@ -72,3 +72,28 @@ Foi executado um teste de integração de console automatizado via subprocesso n
 - Retirada (Saque) de R$ 50.00: efetuada com sucesso.
 - Geração de extrato detalhado: apresentou as duas transações formatadas e o saldo correto de R$ 50.00.
 - Encerramento: encerrado sem nenhuma exceção.
+
+---
+
+## 3. Otimização do Sistema Bancário com Funções Python
+
+Criei e configurei a nova pasta com a implementação refatorada do sistema bancário estruturada em funções com tipos específicos de argumentos.
+
+### Alterações Realizadas
+
+- Criada a pasta: [DIO - otimizando o sistema bancario com funções python](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/DIO%20-%20otimizando%20o%20sistema%20bancario%20com%20fun%C3%A7%C3%B5es%20python)
+- Criado o arquivo de código-fonte: [sistema_bancario_otimizado.py](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/DIO%20-%20otimizando%20o%20sistema%20bancario%20com%20fun%C3%A7%C3%B5es%20python/sistema_bancario_otimizado.py) que refatora as operações em funções específicas com mapeamento rigoroso de parâmetros (*positional-only*, *keyword-only* e posicional/nomeado híbrido) e tratamento de erros de conversão numérica.
+- Criado o arquivo de documentação técnica: [README.md](file:///c:/Users/Chericoni/DIO-python-backend-developer/trilha-python-dio/DIO%20-%20otimizando%20o%20sistema%20bancario%20com%20fun%C3%A7%C3%B5es%20python/README.md) explicando detalhadamente as novas assinaturas das funções, cadastros de clientes e contas.
+
+### Resultados da Verificação
+
+Foi executado um teste de integração de terminal automatizado simulando:
+1. Cadastro de novo cliente (`Maria Silva`).
+2. Criação de nova conta corrente associada a esse cliente.
+3. Listagem de contas correntes cadastradas.
+4. Depósito de R$ 200.00.
+5. Saque de R$ 100.00.
+6. Exibição do extrato e verificação do saldo de R$ 100.00.
+7. Saída limpa do terminal.
+
+O programa executou sem nenhuma falha, demonstrando total compatibilidade operacional.
